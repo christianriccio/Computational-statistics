@@ -9,3 +9,6 @@ I am going to present the two first, very basic, optimization methods for 1 para
 Then i will introduce 'Bracketing' and present how to implement it. It will be usend in combination with:
 1. Steepest descent or gradient descent
 2. Newton-Raphson method
+
+
+
