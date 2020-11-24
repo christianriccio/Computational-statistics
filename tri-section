@@ -1,0 +1,41 @@
+#importing required libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
+def function(x):
+    y = x**2+2*np.exp(-x)
+    return y
+
+def plot(array, fun):
+    return plt.plot(array, fun)
+    
+x=np.linspace(0,2, 200)
+plot(x, function(x))
+
+x1=min(x)
+x2=max(x)
+delta=x2-x1
+epsilon=10**-6
+
+print(f'min: {x1}, max: {x2}, delta: {delta}')
+
+max_iter= 100
+count = 0
+while delta > epsilon and count < max_iter:
+    count+=1
+    x3=x1+delta/3
+    x4=x2-delta/3
+    f3 = function(x3)
+    f4 = function(x4)    
+    if f3>f4:
+        x1=x3
+    else:        
+        x2=x4
+        
+    delta=x2-x1
+
+
+print(f"minimum': {np.round((x2+x1)/2, 6)} at the iteration {count}")
+        
+        
