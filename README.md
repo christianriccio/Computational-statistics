@@ -17,7 +17,7 @@ How tri-section work? Let's say that the minima of f(x) is beetween ![formula](h
 > 2. ![formula](https://render.githubusercontent.com/render/math?math=x_{4}  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )-![formula](https://render.githubusercontent.com/render/math?math=(x_{2}  )-![formula](https://render.githubusercontent.com/render/math?math=x_{1})  )/3
 
 Let's compute the function in this two points and evaluate the following:
-> 1. f(x_{3})<f(x_{4})
+> 1. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  )f(x_{3})<![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  )
 > 2. f(x_{3})>f(x_{4})
 
 Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: x_{1}new and x_{2}new
