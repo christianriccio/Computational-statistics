@@ -105,3 +105,8 @@ step 3:
   2. ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) constant or backtracking( with second derivative, up to you) 
   
   3. ![formula](https://render.githubusercontent.com/render/math?math=x_{k+1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{k}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) * ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  )
+  
+ 
+ The are also other two worked examples: 
+ 1. The Rosenbrock function
+ 2. A function with two minima
