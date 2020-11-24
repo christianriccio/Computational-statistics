@@ -46,8 +46,7 @@ and so forth, we iterate until the convergence is not reached.
 We are supposing that in the point x= 0 the derivative is negative, follows that there is a step size delta in which: f(delta) < f(0). Note that we are still using the R golden section value.
 The following is how the algorithm work:
 1. j=1
-2. ![formula](https://render.githubusercontent.com/render/math?math= x_{1} ) + delta ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^ì = x_{1} )deltaand 
-      ![formula](https://render.githubusercontent.com/render/math?math=f(x_{1}) = f(x_{1})  )
+![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )
  
   
 
