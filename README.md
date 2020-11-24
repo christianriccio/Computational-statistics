@@ -20,9 +20,9 @@ Let's compute the function in this two points and evaluate the following:
 > 1. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  )<![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  )
 > 2. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  )>![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  )
 
-Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^new  ) and x_{2}new
+Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  ) and x_{2}new
 So:
-> 1. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  ):
+> 1. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  ):
     x_{1}new=x_{1}
     x_{2}new=x_{4}
 > 2. if f(x_{3})>f(x_{4}):
