@@ -68,3 +68,7 @@ if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  ) < !
 and so forth, we iterate until the convergence is not reached.
 
 ## Steepest Descent ( Gradient descent)
+
+Gradient descent methods starts with an inital points x0 and the iteratively generates a sequence of points defined by the following expression: 
+![formula](https://render.githubusercontent.com/render/math?math=x_{k+1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{k}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k} * p )
+
