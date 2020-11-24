@@ -24,15 +24,11 @@ Now, depending on which condition occurs, we define a new interval around the mi
 
 So:
 > 1. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
-
-     ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )}
-    
-     ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{4}  )
+> 1.1     ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )}    
+> 1.2     ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{4}  )
 > 2. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) > ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
-
-    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{3}  )
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
+> 2.1    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{3}  )    
+> 2.2    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
     
     
 and so forth, we iterate until the convergence is not reached.
