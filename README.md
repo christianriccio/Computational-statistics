@@ -86,7 +86,7 @@ So, we start with a value of alpha between 0 and 1, we assign to beta the value 
 
 step 1:
 
-![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=f(x_{0}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) * ![formula](https://render.githubusercontent.com/render/math?math=p  ) 
+![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=f(x_{0})  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) * ![formula](https://render.githubusercontent.com/render/math?math=p  ) 
 
 step 2:
 
@@ -94,6 +94,7 @@ if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  )  < 
  
 step 3:
 
-![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) 
+![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  )  then go back to step 1 and iterate until convergence is reached.
 
+## Newton - Raphson
 
