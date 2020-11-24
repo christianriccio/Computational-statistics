@@ -77,3 +77,23 @@ Here, ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) 
 For the seek of purpose we choose for now alpha constant and  ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) = ![formula](https://render.githubusercontent.com/render/math?math=-f^{'}  ) ; that's it! The we iterate again until covergence is reached
 
 ## Backtracking
+Do not be confused with 'bracketing' !!
+
+Is an iterative maethod used to find  the most adapt step length ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ). 
+
+Obviously it cane be placed in the steepest descent method, as shown in backtracking.py. 
+So, we start with a value of alpha between 0 and 1, we assign to beta the value of the R golden section and be ![formula](https://render.githubusercontent.com/render/math?math=x_{0}  ) a random starting point, it follows: 
+
+step 1:
+
+![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=f(x_{0}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) * ![formula](https://render.githubusercontent.com/render/math?math=p  ) 
+
+step 2:
+
+if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  )  < ![formula](https://render.githubusercontent.com/render/math?math=f ) we stop; else
+ 
+step 3:
+
+![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) 
+
+
