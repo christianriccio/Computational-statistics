@@ -76,4 +76,4 @@ Here, ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) 
 
 For the seek of purpose we choose for now alpha constant and  ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) = ![formula](https://render.githubusercontent.com/render/math?math=-f^{'}  ) ; that's it! The we iterate again until covergence is reached
 
-
+## Backtracking
