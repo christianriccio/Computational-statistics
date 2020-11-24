@@ -22,12 +22,12 @@ Let's compute the function in this two points and evaluate the following:
 
 Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  ) and ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )
 So:
-> 1. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  ):
-    x_{1}new=x_{1}
-    x_{2}new=x_{4}
-> 2. if f(x_{3})>f(x_{4}):
-    x_{1}new=x_{3}
-    x_{2}new=x_{2}
+> 1. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
+    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )}
+    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{4}  )
+> 2. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) > ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
+    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{3}  )
+    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
     
     
 and so forth, we iterate until the convergence is not reached.
