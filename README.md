@@ -65,4 +65,6 @@ step 4:
 
 if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  ) < ![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) --> j=j+1 ,  ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )  , ![formula](https://render.githubusercontent.com/render/math?math=f(x_{1})  ) = ![formula](https://render.githubusercontent.com/render/math?math=f(x_{2})  ) and go to step 2.
 
+and so forth, we iterate until the convergence is not reached.
 
+## Steepest Descent ( Gradient descent)
