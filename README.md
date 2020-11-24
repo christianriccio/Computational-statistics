@@ -33,10 +33,21 @@ So:
    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{3}  )     
    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
     
-    
 and so forth, we iterate until the convergence is not reached.
+
 ## Golden section Search
+
  The Golden search algorithm is a faster version of the tri-section algorithm and use the 'Golden Ratio' for enanching it. Recall that the golden ratio R is degined as $$ R = \(sqrt{5}+1)/2 = 1.618034 $$
+ 
+ ## Bracketing
+ 
+ Let's find now, instead of a value for the minima, a range of values where the minima could be contained with bracketing.  L'ets try to find an interval 0 --- alpha where the minima is located. 
+ 
+ We are supposing that in the point x= 0 the derivative is negative, follows that there is a step size delta in which: f(delta) < f(0): We still use the R golden section value.
+ The following is how the algorithm work:
+ > 1. j=1
+ > 
+ 
   
 
 
