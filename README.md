@@ -1,5 +1,5 @@
-# Computation-statistic
-Optimization algorithms for minima of functions
+
+# Optimization algorithms for find minima of functions
 
 I am going to present the two first, very basic, optimization methods for 1 parameter:
 > Tri-section method
@@ -10,7 +10,7 @@ Then i will introduce 'Bracketing' and present how to implement it. It will be u
 > Steepest descent or gradient descent
 > Newton-Raphson method
 
-# Tri-section
+## Tri-section
 
 How tri-section work? Let's say that the minima of ![formula](https://render.githubusercontent.com/render/math?math=f(x)  ) is beetween ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  ) and ![formula](https://render.githubusercontent.com/render/math?math=x_{2}  ) with ![formula](https://render.githubusercontent.com/render/math?math=x_{1} ) < ![formula](https://render.githubusercontent.com/render/math?math=x_{2} ). So we divide the interval ![formula](https://render.githubusercontent.com/render/math?math=x_{1} ) --- ![formula](https://render.githubusercontent.com/render/math?math=x_{2} ) in three part of same size:
 > 1. ![formula](https://render.githubusercontent.com/render/math?math=x_{3}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )+ ![formula](https://render.githubusercontent.com/render/math?math=(x_{2}  )- ![formula](https://render.githubusercontent.com/render/math?math=x_{1})  )/3
@@ -35,6 +35,7 @@ So:
     
     
 and so forth, we iterate until the convergence is not reached.
+## Golden section Search
     
     
   
