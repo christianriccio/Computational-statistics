@@ -20,18 +20,18 @@ Let's compute the function in this two points and evaluate the following:
 > 1. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  )<![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  )
 > 2. ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  )>![formula](https://render.githubusercontent.com/render/math?math=f(x_{4})  )
 
-Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^(new)  ) and ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^(new)  )
+Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^{new}  ) and ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^{new}  )
 
 So:
 > 1. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) < ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
 
-   ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^{new})  )=![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )   
+   ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^{new}  )=![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )   
    ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^{new}  )=![formula](https://render.githubusercontent.com/render/math?math=x_{4}  )
    
 > 2. if ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ) > ![formula](https://render.githubusercontent.com/render/math?math=f(x_{3})  ):
 
    ![formula](https://render.githubusercontent.com/render/math?math=x_{1}^{new}  )=![formula](https://render.githubusercontent.com/render/math?math=x_{3}  )     
-   ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^{new})  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
+   ![formula](https://render.githubusercontent.com/render/math?math=x_{2}^{new}  )=![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
     
 and so forth, we iterate until the convergence is not reached.
 
@@ -60,6 +60,9 @@ step 2:
 step 3:
 
 if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  ) >= ![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) the minimum is in the range 0 --  ![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )
- 
+
+step 4:
+
+if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  ) < ![formula](https://render.githubusercontent.com/render/math?math=f_{1}  ) --> j=j+1 ,  ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{2}  )  , ![formula](https://render.githubusercontent.com/render/math?math=f(x_{1})  ) = ![formula](https://render.githubusercontent.com/render/math?math=f(x_{2})  ) and go to step 2.
 
 
