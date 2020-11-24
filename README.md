@@ -1,5 +1,7 @@
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 # Computation-statistic
-Optimization algorithms for functions' minima
+Optimization algorithms for minima of functions
 
 I am going to present the two first, very basic, optimization methods for 1 parameter:
 > Tri-section method
