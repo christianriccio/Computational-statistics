@@ -1,5 +1,3 @@
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
 # Computation-statistic
 Optimization algorithms for minima of functions
 
