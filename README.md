@@ -36,7 +36,7 @@ So:
     
 and so forth, we iterate until the convergence is not reached.
 ## Golden section Search
- The Golden search algorithm is a faster version of the tri-section algorithm and use the 'Golden Ratio' for enanching it. Recall that the golden ratio R is degined as [img]http://www.sciweavers.org/tex2img.php?eq=%20R%3D%5Cbig%28%5Csqrt%7B5%7D%20%2B1%5Cbig%29%20%20%5Csetminus%20%202%20%5Csimeq%201.618034&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img]
+ The Golden search algorithm is a faster version of the tri-section algorithm and use the 'Golden Ratio' for enanching it. Recall that the golden ratio R is degined as $$ R = \(sqrt{5}+1)/2 $$
   
 
 
