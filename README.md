@@ -10,5 +10,30 @@ Then i will introduce 'Bracketing' and present how to implement it. It will be u
 1. Steepest descent or gradient descent
 2. Newton-Raphson method
 
+# Tri-section
+
+How tri-section work? Let's say that the minima of f(x) is beetween x_{1} and x_{2} with x_{1}<x_{2}. So we divide the interval x_{1}----x_{2} in three part of same size:
+1. x_{3}=x_{1}+(x_{2}-x_{1})/3
+2. x_{4}=x_{2}-(x_{2}-x_{1})/3
+
+Let's compute the function in this two points and evaluate the following:
+1. f(x_{3})<f(x_{4})
+1. f(x_{3})>f(x_{4})
+
+Now, depending on which condition occurs, we define a new interval around the minimum indicated by 2 new points: x_{1}new and x_{2}new
+So:
+1. if f(x_{3})<f(x_{4}):
+    x_{1}new=x_{1}
+    x_{2}new=x_{4}
+2. if f(x_{3})>f(x_{4}):
+    x_{1}new=x_{3}
+    x_{2}new=x_{2}
+    
+    
+and so forth, we iterate until the convergence is not reached.
+    
+    
+  
+
 
 
