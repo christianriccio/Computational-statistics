@@ -97,4 +97,11 @@ step 3:
 ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  )  then go back to step 1 and iterate until convergence is reached.
 
 ## Newton - Raphson
- Newton- Raphson is a powerd version of 
+ Newton- Raphson is a powerd version of the gradient descent. In this method is utilizies also the hessian ( for function of more than one variable) of the function ( and so the second derivative) for set-up the p direction of the descent. Said that we prooced in the same previous manner. In particular in newton- Raphson we can find the optimal alpha parameter with backtracking. here backtracking can make use of the second deivative of the function. [ look at the newton-raphos.py file] 
+ 
+ keep in mind:
+  1.    ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) = ![formula](https://render.githubusercontent.com/render/math?math=-f^{'}  ) / ![formula](https://render.githubusercontent.com/render/math?math=f^{''}  )
+  
+  2.     ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) constant or backtracking( with second derivative, up to you) 
+  
+  3.     ![formula](https://render.githubusercontent.com/render/math?math=x_{k+1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{k}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) * ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  )
