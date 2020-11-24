@@ -97,4 +97,4 @@ step 3:
 ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  )  then go back to step 1 and iterate until convergence is reached.
 
 ## Newton - Raphson
-
+ Newton- Raphson is a powerd version of 
