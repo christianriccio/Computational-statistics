@@ -74,5 +74,6 @@ Gradient descent methods starts with an inital points ![formula](https://render.
 
 Here, ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) is the search direction and ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) is the step length that indicates how big is the step along the ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) direction.
 
+For the seek of purpose we choose for now alpha constant and  ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) = ![formula](https://render.githubusercontent.com/render/math?math=-f^{'}  ) ; that's it! The we iterate again until covergence is reached
 
 
