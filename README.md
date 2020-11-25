@@ -11,6 +11,7 @@ Then i will introduce 'Bracketing' and present how to implement it. It will be u
 > Newton-Raphson method
 
 ## Tri-section
+[tri-section.py]
 
 How tri-section work? Let's say that the minima of ![formula](https://render.githubusercontent.com/render/math?math=f(x)  ) is beetween ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  ) and ![formula](https://render.githubusercontent.com/render/math?math=x_{2}  ) with ![formula](https://render.githubusercontent.com/render/math?math=x_{1} ) < ![formula](https://render.githubusercontent.com/render/math?math=x_{2} ). So we divide the interval ![formula](https://render.githubusercontent.com/render/math?math=x_{1} ) --- ![formula](https://render.githubusercontent.com/render/math?math=x_{2} ) in three part of same size:
 > 1. ![formula](https://render.githubusercontent.com/render/math?math=x_{3}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{1}  )+ ![formula](https://render.githubusercontent.com/render/math?math=(x_{2}  )- ![formula](https://render.githubusercontent.com/render/math?math=x_{1})  )/3
@@ -36,11 +37,12 @@ So:
 and so forth, we iterate until the convergence is not reached.
 
 ## Golden section Search
+[golden_search.py]
 
  The Golden search algorithm is a faster version of the tri-section algorithm and use the 'Golden Ratio' for enanching it. Recall that the golden ratio R is degined as $$ R = \(sqrt{5}+1)/2 = 1.618034 $$
  
  ## Bracketing
- 
+ [bracketing.py]
  Let's find now, instead of a value for the minima, a range of values where the minima could be contained with bracketing.  L'ets try to find an interval 0 --- alpha where the minima is located. 
  
 We are supposing that in the point x= 0 the derivative is negative, follows that there is a step size delta in which: f(delta) < f(0). Note that we are still using the R golden section value.
@@ -68,6 +70,7 @@ if ![formula](https://render.githubusercontent.com/render/math?math=f_{2}  ) < !
 and so forth, we iterate until the convergence is not reached.
 
 ## Steepest Descent ( Gradient descent)
+[steepest_descent.py]
 
 Gradient descent methods starts with an inital points ![formula](https://render.githubusercontent.com/render/math?math=x_{0}  ) and the iteratively generates a sequence of points ![formula](https://render.githubusercontent.com/render/math?math=x_{k}  ) defined by the following expression: 
 ![formula](https://render.githubusercontent.com/render/math?math=x_{k+1}  ) = ![formula](https://render.githubusercontent.com/render/math?math=x_{k}  ) + ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ) * ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  )
@@ -77,6 +80,8 @@ Here, ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) 
 For the seek of purpose we choose for now alpha constant and  ![formula](https://render.githubusercontent.com/render/math?math=p_{k}  ) = ![formula](https://render.githubusercontent.com/render/math?math=-f^{'}  ) ; that's it! The we iterate again until covergence is reached
 
 ## Backtracking
+[ backtracking.py]
+
 Do not be confused with 'bracketing' !!
 
 Is an iterative maethod used to find  the most adapt step length ![formula](https://render.githubusercontent.com/render/math?math=alpha_{k}  ). 
@@ -97,6 +102,9 @@ step 3:
 ![formula](https://render.githubusercontent.com/render/math?math=alpha  ) = ![formula](https://render.githubusercontent.com/render/math?math=beta ) * ![formula](https://render.githubusercontent.com/render/math?math=alpha  )  then go back to step 1 and iterate until convergence is reached.
 
 ## Newton - Raphson
+
+[newton_raphson.py]
+
  Newton- Raphson is a powerd version of the gradient descent. In this method is utilizies also the hessian ( for function of more than one variable) of the function ( and so the second derivative) for set-up the p direction of the descent. Said that we prooced in the same previous manner. In particular in newton- Raphson we can find the optimal alpha parameter with backtracking. here backtracking can make use of the second deivative of the function. [ look at the newton-raphos.py file] 
  
  keep in mind:
